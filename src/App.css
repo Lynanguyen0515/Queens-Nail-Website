@@ -1,0 +1,218 @@
+body, .qn-app {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #fff;
+  color: #222;
+  margin: 0;
+  padding: 0;
+}
+
+.qn-header {
+  text-align: center;
+  padding: 2rem 1rem 1rem 1rem;
+  background: #fffbe6;
+  border-bottom: 1px solid #f5e1a4;
+}
+.qn-title {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 2.8rem;
+  color: #222;
+  letter-spacing: 2px;
+  margin: 0;
+}
+.qn-tagline {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 1.3rem;
+  color: #bfa14a;
+  margin: 0.5rem 0 0 0;
+}
+.qn-heart {
+  color: #e63946;
+  font-size: 1.2em;
+  vertical-align: middle;
+}
+
+.qn-contact {
+  text-align: center;
+  margin: 1.5rem 0 1rem 0;
+  font-size: 1.1rem;
+}
+.qn-walkin {
+  color: #bfa14a;
+  font-weight: bold;
+}
+.qn-phone {
+  color: #bfa14a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* --- Services Section --- */
+.qn-services {
+  margin: 2.5rem 0 2rem 0;
+  width: 100%;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left !important;
+}
+.qn-services-headline {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: #bfa14a;
+  font-size: 2.1rem;
+  margin-bottom: 2.5rem;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+.qn-services-vertical-list {
+  display: block !important;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+}
+.qn-service-vertical-block {
+  width: 100%;
+  text-align: left !important;
+  background: #fffbe6;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(191,161,74,0.07);
+  padding: 1.5rem 2rem 1.2rem 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #f5e1a4;
+}
+.qn-service-vertical-title {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  color: #bfa14a;
+  font-size: 1.5rem;
+  margin-bottom: 1.1rem;
+  margin-top: 0;
+  letter-spacing: 1px;
+  text-align: left !important;
+}
+.qn-service-list {
+  list-style: none;
+  margin: 0.2rem 0 0.5rem 0;
+  padding: 0;
+  color: #222;
+  font-size: 1rem;
+}
+.qn-service-item {
+  margin-bottom: 0.7rem;
+}
+.qn-service-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.qn-service-name {
+  font-weight: 500;
+  color: #222;
+}
+.qn-service-price {
+  color: #bfa14a;
+  font-weight: bold;
+  margin-left: 1.2rem;
+}
+.qn-service-desc {
+  font-size: 0.97rem;
+  color: #666;
+  margin-left: 0.2rem;
+  margin-top: 0.1rem;
+  font-style: italic;
+}
+.qn-service-section-heading {
+  font-weight: bold;
+  font-size: 0.98rem;
+  color: #bfa14a;
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  letter-spacing: 0.5px;
+}
+
+.qn-service-addon {
+  font-size: 0.75rem;
+}
+
+/* --- Techs, Gallery, Testimonials, Footer --- */
+.qn-techs {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.qn-tech-list {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.qn-tech {
+  background: #fffbe6;
+  border: 1px solid #f5e1a4;
+  border-radius: 12px;
+  padding: 1rem 2rem;
+  min-width: 180px;
+  box-shadow: 0 2px 8px rgba(191,161,74,0.07);
+}
+.qn-tech-name {
+  font-family: 'Dancing Script', cursive, sans-serif;
+  font-size: 1.3rem;
+  color: #bfa14a;
+  margin-bottom: 0.3rem;
+}
+.qn-tech-desc {
+  font-size: 1rem;
+  color: #222;
+}
+
+.qn-gallery {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.qn-gallery-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+.qn-gallery-img {
+  width: 220px;
+  height: 320px;
+  object-fit: cover;
+  border-radius: 18px;
+  border: 2px solid #bfa14a;
+  box-shadow: 0 2px 12px rgba(191,161,74,0.10);
+  background: #fff;
+}
+
+.qn-follow {
+  text-align: center;
+  margin: 2rem 0 1.5rem 0;
+}
+.qn-follow-list {
+  margin-top: 1rem;
+}
+.qn-follow-link {
+  color: #bfa14a;
+  font-size: 1.1rem;
+  text-decoration: none;
+  margin: 0 0.5rem;
+  transition: color 0.2s;
+}
+.qn-follow-link:hover {
+  color: #e63946;
+  text-decoration: underline;
+}
+
+.qn-footer {
+  text-align: center;
+  padding: 1.2rem 0 1rem 0;
+  background: #fffbe6;
+  color: #bfa14a;
+  font-size: 1rem;
+  border-top: 1px solid #f5e1a4;
+  margin-top: 2rem;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
